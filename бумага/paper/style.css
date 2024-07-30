@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #85859B;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.navheader{
+    display: flex;
+    font-size: 20px;
+    gap: 60px;
+}
+.butlog{
+    display: flex;
+    gap: 30px;
+}
+
+.blockone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.maindiscr{
+    display: flex;
+    flex-direction: column;
+    max-width: 445px;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+button{
+    background-color: white;
+    border: 1px solid #7875FE;
+    margin-top: 30px;
+    width: 225px;
+    height: 70px;
+    padding: 20px 50px;
+    color: #7875FE;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+}
+.card{
+    max-width: 350px;
+}
+.discrcaed{
+    display: flex;
+    align-items: center;
+}
+hr{
+    border: 1px solid #C0C0C0;
+}
+.pngres{
+    margin-right: 30px;
+    width: 100%;
+}
+h5{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.blockdiscr{
+    max-width: 350px;
+}
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.blockthree{
+    display: flex;
+    gap: 30px;
+    margin: 90px 0;
+}
+.paket{
+    max-width: 255px;
+}
+.paketdiscr{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 20px 0;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.t{
+    font-size: 14px;
+    color: #B5B5BD;
+}
+a{
+    display: flex;
+    gap: 5px;
+    color: #7875FE;
+    text-decoration: none;
+}
+
+.blockfour{
+    display: flex;
+    gap: 30px;
+}
+
+.blockfive{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.blockfivediscr{
+    max-width: 350px;
+}
+
+footer{
+    background-color: #4C5866;
+    padding: 28px 0;
+}
+.foot{
+    display: flex;
+    justify-content: space-between  ;
+}
+.cotcet{
+    display: flex;
+    gap: 30px;
+}
